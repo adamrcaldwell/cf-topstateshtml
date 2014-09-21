@@ -1,0 +1,38 @@
+body {
+	font-family:arial;
+}
+
+
+#guessbutton {
+  display: inline-block;
+  height:25px;
+	width:100px;
+	background-color:#AAAAFF;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+}
+
+.correctstate {
+	height:30px;
+	width:200px;
+	background-color:#AAAAFF;
+	border-radius:5px;
+	margin-top:2px;
+	font-family:arial;
+	font-weight:bold;
+	opacity:0;
+}
+
+.incorrectitem {
+	height:30px;
+	width:200px;
+	background-color:#FFAAAA;
+	border-radius:5px;
+	margin-top:2px;
+	font-family:arial;
+	font-weight:bold;
+}
