@@ -33,45 +33,39 @@ $(document).ready(function() {
 
   	if (checkGuess(thisGuess)) {   
 
-  		if (thisGuess == "California") {
-  			$("#california").css("opacity", "100")
-  		}
-
-  		else if (thisGuess == "Texas") {
-  			$("#texas").css("opacity", "100")
-  		}
-
-  		else if (thisGuess == "New York") {
-  			$("#newyork").css("opacity", "100")
-  		}
-
-  		else if (thisGuess == "Florida") {
-  			$("#florida").css("opacity", "100")
-  		}
-
-  		else if (thisGuess == "Illinois") {
-  			$("#illinois").css("opacity", "100")
-  		}
-
-  		else if (thisGuess == "Pennsylvania") {
-  			$("#pennsylvania").css("opacity", "100")
-  		}
-
-  		else if (thisGuess == "Ohio") {
-  			$("#ohio").css("opacity", "100")
-  		}
-
-  		else if (thisGuess == "Georgia") {
-  			$("#georgia").css("opacity", "100")
-  		}
-
-  		else if (thisGuess == "Michigan") {
-  			$("#michigan").css("opacity", "100")
-  		}
-
-  		else if (thisGuess == "North Carolina") {
-  			$("#northcarolina").css("opacity", "100")
-  		}
+      switch(thisGuess) {
+        case "California":
+          $("#california").css("opacity", "100");
+          break;
+        case "Texas":
+          $("#texas").css("opacity", "100");
+          break;
+        case "New York":
+          $("#newyork").css("opacity", "100");
+          break;
+        case "Florida":
+          $("#florida").css("opacity", "100");
+          break;
+        case "Illinois":
+          $("#illinois").css("opacity", "100");
+          break;
+        case "Pennsylvania":
+          $("#pennsylvania").css("opacity", "100");
+          break;
+        case "Ohio":
+          $("#ohio").css("opacity", "100");
+          break;
+        case "Georgia":
+          $("#georgia").css("opacity", "100");
+          break;
+        case "Michigan":
+          $("#michigan").css("opacity", "100");
+          break;
+        case "North Carolina":
+          $("#northcarolina").css("opacity", "100");
+          break;
+          
+      }
 
   	}
 
